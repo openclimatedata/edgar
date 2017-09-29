@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+        "title: "Global Emissions EDGAR v4.3.2 (July 2017)",
+        "url": "http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123"
+    }
+  ],
+  "resources": [],
+  "name": "edgar",
+  "title": "",
+  "description": "",
+  "homepage": ""
+}
