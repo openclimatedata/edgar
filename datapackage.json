@@ -1,13 +1,137 @@
 {
   "sources": [
     {
-        "title: "Global Emissions EDGAR v4.3.2 (July 2017)",
-        "url": "http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123"
+      "title": "Global Emissions EDGAR v4.3.2 (July 2017)",
+      "url": "http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123"
     }
   ],
-  "resources": [],
+  "resources": [
+    {
+      "name": "ch4",
+      "path": "data/ch4.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": ["Code", "Category", "Year"]
+      }
+    },
+    {
+      "name": "co2_excl_short-cycle_org_c",
+      "path": "data/co2_excl_short-cycle_org_c.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": ["Code", "Category", "Year"]
+      }
+    },
+    {
+      "name": "co2_org-short-cycle_c",
+      "path": "data/co2_org-short-cycle_c.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": ["Code", "Category", "Year"]
+      }
+    },
+    {
+      "name": "n2o",
+      "path": "data/n2o.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Code",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Category",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": ["Code", "Category", "Year"]
+      }
+    }
+  ],
   "name": "edgar",
   "title": "",
-  "description": "",
-  "homepage": ""
+  "description": ""
 }
