@@ -31,7 +31,8 @@
           {
             "name": "Emissions",
             "type": "number",
-            "description": ""
+            "description": "",
+            "unit": "Gg"
           }
         ],
         "primaryKey": ["Code", "Category", "Year"]
@@ -62,7 +63,8 @@
           {
             "name": "Emissions",
             "type": "number",
-            "description": ""
+            "description": "",
+            "unit": "Gg"
           }
         ],
         "primaryKey": ["Code", "Category", "Year"]
@@ -93,7 +95,8 @@
           {
             "name": "Emissions",
             "type": "number",
-            "description": ""
+            "description": "",
+            "unit": "Gg"
           }
         ],
         "primaryKey": ["Code", "Category", "Year"]
@@ -124,7 +127,8 @@
           {
             "name": "Emissions",
             "type": "number",
-            "description": ""
+            "description": "",
+            "unit": "Gg"
           }
         ],
         "primaryKey": ["Code", "Category", "Year"]
