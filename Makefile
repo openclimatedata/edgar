@@ -6,6 +6,9 @@ CSV_FILES = \
 
 all: venv $(CSV_FILES)
 
+validate:
+	./venv/bin/goodtables datapackage.json
+
 data/%.csv: scripts/%.py
 	@echo $@
 	@./venv/bin/python $<
@@ -22,4 +25,4 @@ clean:
 clean-venv:
 	rm -rf venv
 
-.PHONY: clean
+.PHONY: clean validate
