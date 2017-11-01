@@ -136,6 +136,6 @@
     }
   ],
   "name": "edgar",
-  "title": "Global Emissions dataset EDGAR ",
-  "description": "In EDGARv4.3.2 emissions are calculated for the three main greenhouse gases per sector and country."
+  "title": "EDGAR Global Emissions Dataset",
+  "description": "Emissions for the three main greenhouse gases per sector and country"
 }
