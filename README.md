@@ -1,6 +1,8 @@
-Data Package of Global Emissions dataset
+Data Package of Global Greenhouse Gases Emissions dataset [EDGAR v4.3.2 (July 2017)](http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123)
 
-[EDGAR v4.3.2 (July 2017)](http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123)
+See [EDGAR](http://edgar.jrc.ec.europa.eu/overview.php?v=432_GHG&SECURE=123)
+for more details. This Data Package makes the timeseries XLS files available in
+the CSV format.
 
 # License
 
